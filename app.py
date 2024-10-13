@@ -34,7 +34,7 @@ with col2:
 
 
 city = st.selectbox(
-    'Select the city where the match is being played', sorted(cities))
+    'Select the city where the match is being played india and UAE.', sorted(cities))
 
 
 target = st.number_input('Target')
@@ -52,7 +52,6 @@ with col5:
 
 
 if st.button('Predict Probability'):
-
     runs_left = target-score
     balls_left = 120-(overs*6)
     wickets = 10-wickets
