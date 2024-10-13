@@ -34,7 +34,7 @@ with col2:
 
 
 city = st.selectbox(
-    'Select the city where the match is being played india and UAE.', sorted(cities))
+    'Select the city where the match is being played India and UAE.', sorted(cities))
 
 
 target = st.number_input('Target')
